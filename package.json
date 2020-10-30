@@ -4,7 +4,8 @@
     "description": "Node API Challenge",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon index.js",
+        "start": "node index.js",
+        "server": "nodemon index.js",
         "db:seed": "knex seed:run"
     },
     "repository": {
@@ -28,10 +29,10 @@
         "helmet": "^4.1.1",
         "knex": "^0.21.9",
         "morgan": "^1.10.0",
-        "nodemon": "^2.0.6",
         "sqlite3": "^5.0.0"
     },
     "devDependencies": {
-        "knex-cleaner": "^1.3.0"
+        "knex-cleaner": "^1.3.0",
+        "nodemon": "^2.0.6"
     }
 }
